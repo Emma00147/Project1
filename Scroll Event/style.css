@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}
+.intro{
+	width: 100%;
+	height: 100vh;
+	background-image: url(image/back.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	margin: 30px 10%;
+}
+.row{
+	width: 90%;
+	padding: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity: 0;
+	transform: scale(0.1);
+	transition: all 1s ease-in-out;
+}
+.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.row .col{
+	flex-basis: 45%;
+}
+.col p{
+	display: inline-flex;
+	font-size: 15px;
+	line-height: 20px;
+	margin:20px 0;
+
+}
+.outro{
+	width: 100%;
+	height: 600px;
+	background-color: pink;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
